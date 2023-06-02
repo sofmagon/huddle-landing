@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <title>Huddle</title>
+    <!-- Responsividad -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Natural -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Ing. TICS. Sofía Martinelli">
+    <meta name="copyright" content="&copy; SOFMAGON 2023. Todos los derechos reservados.">
+    <meta name="description" content="Huddle landing page with curved sections. Challenge by Frontend Mentor.">
+    <!-- Humans TXT -->
+    <link rel="author" href="humans.txt">
+    <!-- Normalize CSS -->
+    <link rel="preload" href="./css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <!-- Estilos locales de CSS -->
+    <link rel="preload" href="./css/main.css" as="style">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="hero__nav container">
+            <figure class="hero__logo">
+                <img src="./images/logo.svg" alt="Logo Huddle" class="hero__huddle">
+            </figure>
+            <a href="#" class="hero__cta">Try it free</a>
+        </nav>
+        <section class="hero__main container">
+            <div class="hero__text">
+                <h1 class="hero__title">Build The Community Your Fans Will Love</h1>
+                <p class="hero__paragraph">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+                <a href="#" class="cta">Get Started For Free</a>
+            </div> <!-- .hero__text -->
+            <figure class="hero__picture">
+                <img class="hero__img" src="./images/screen-mockups.svg" alt="Mockups Huddle">
+            </figure>
+            <div class="hero__numbers">
+                <div class="hero__item">
+                    <img class="hero__icon" src="./images/icon-communities.svg" alt="Community icon">
+                    <h3 class="hero__number">1.4k+</h3>
+                    <p class="hero__community">Communities Formed</p>
+                </div> <!-- .hero__item 01 -->
+                <div class="hero__item">
+                    <img class="hero__icon" src="./images/icon-messages.svg" alt="Messages icon">
+                    <h3 class="hero__number">2.7m+</h3>
+                    <p class="hero__community">Messages Sent</p>
+                </div> <!-- .hero__item 02 -->
+            </div> <!-- .hero__numbers -->
+        </section>
+        <div class="wave wave--bottom"></div>
+    </header>
+
+    <main class="main">
+        <section class="section">
+            <div class="section__container section__container--inverse container">
+                <figure class="section__picture">
+                    <img src="./images/illustration-grow-together.svg" alt="Grow Together Image">
+                </figure>
+                <div class="section__text">
+                    <h2 class="subtitle">Grow Together</h2>
+                    <p class="section__paragraph">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+                </div>
+            </div>
+        </section> <!-- Grow Together -->
+        <section class="section section--white">
+            <div class="section__container container">
+                <figure class="section__picture">
+                    <img src="./images/illustration-flowing-conversation.svg" alt="Flowing Conversations Image">
+                </figure>
+                <div class="section__text">
+                    <h2 class="subtitle">Flowing Conversations</h2>
+                    <p class="section__paragraph">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+                </div>
+            </div>
+            <div class="wave wave--top"></div>
+            <div class="wave wave--bottom"></div>
+        </section> <!-- Flowing Conversations -->
+        <section class="section">
+            <div class="section__container section__container--inverse container">
+                <figure class="section__picture">
+                    <img src="./images/illustration-your-users.svg" alt="Your Users Image">
+                </figure>
+                <div class="section__text">
+                    <h2 class="subtitle">Your Users</h2>
+                    <p class="section__paragraph"> It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+                </div>
+            </div>
+        </section> <!-- Your Users -->
+    </main>
+
+    <section class="question">
+        <div class="question__text container">
+            <h2 class="subtitle">Ready To Build Your Community?</h2>
+            <a href="#" class="cta">Get Started For Free</a>
+        </div>
+        <div class="wave wave--top"></div>
+        <div class="wave wave--bottom"></div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <section class="footer__newsletter">
+                <h2 class="footer__title">Newsletter</h2>
+                <p class="footer__paragraph">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address</p>
+                <form class="footer__form">
+                    <input type="email" class="footer__input">
+                    <input type="submit" value="Subscribe" class="footer__cta">
+                </form>
+            </section>
+
+            <section class="footer__content">
+                <div class="footer__description">
+                    <img src="./images/logo dark-bg.svg" alt="Logo Huddle" class="footer__logo">
+                    <p class="footer__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.</p>
+                </div>
+
+                <div class="footer__info">
+                    <div class="footer__contact">
+                        <img src="./images/icon-phone.svg" alt="Phone icon" class="footer__icon">
+                        <p class="footer__paragraph">Phone: +1-543-123-4567</p>
+                    </div>
+                    <div class="footer__contact footer__contact--email">
+                        <img src="./images/icon-email.svg" alt="Email icon" class="footer__icon">
+                        <p class="footer__paragraph">example@huddle.com</p>
+                    </div>
+                </div>
+
+                <div class="footer__social">
+                    <a href="#" class="footer__link">
+                        <img src="./images/facebook.svg" alt="Facebook icon" class="footer__social-network">
+                    </a> <!-- Facebook -->
+                    <a href="#" class="footer__link">
+                        <img src="./images/instagram.svg" alt="Instagram icon" class="footer__social-network">
+                    </a> <!-- Instagram -->
+                    <a href="#" class="footer__link">
+                        <img src="./images/twitter.svg" alt="Twitter icon" class="footer__social-network">
+                    </a> <!-- Twitter -->
+                </div>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
