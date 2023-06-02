@@ -40,9 +40,9 @@ Your users should be able to:
 - Mobile-first workflow
 
 ## My solution
-Visit my solution on FrontEnd Mentor, [here]()
+Visit my solution on FrontEnd Mentor, [here](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-BKeJka72lJ)
 
-Visit the live site, [here]()
+Visit the live site, [here](https://sofmagon.github.io/huddle-landing/)
 
 ## Author
 All my links: [SOFMAGON](https://beacons.ai/sofmagon)
